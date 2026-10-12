@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Thank You | Adarsh Lakefront</title>
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#184a86">
+<link rel="icon" href="assets/img/mark-navy.webp" type="image/webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+<style>
+  html, body { height: 100%; }
+  body { display: flex; flex-direction: column; min-height: 100%; background: var(--char-2); }
+  .ty { position: relative; isolation: isolate; flex: 1 1 auto; display: grid; place-items: center; padding: clamp(40px, 8vw, 96px) 0; color: var(--white); }
+  .ty-media, .ty-media img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: -2; }
+  .ty::after { content: ""; position: absolute; inset: 0; z-index: -1; background: var(--stripes), rgba(18, 58, 108, .9); }
+  .ty-card { width: 100%; max-width: 620px; margin: 0 auto; background: var(--white); color: var(--ink); border-radius: 8px; border-top: 3px solid var(--gold); padding: clamp(28px, 5vw, 48px); text-align: center; box-shadow: 0 40px 90px -30px rgba(0, 0, 0, .6); }
+  .ty-card .logo { width: 180px; margin: 0 auto 6px; }
+  .ty-card .pname { margin: 0 0 26px; color: var(--gold-deep); font-weight: 700; font-size: 14px; letter-spacing: .14em; text-transform: uppercase; }
+  .ty-tick { width: 60px; height: 60px; margin: 0 auto 18px; border-radius: 50%; background: var(--gold-grad); color: var(--char-2); display: grid; place-items: center; }
+  .ty-card h1 { font-weight: 300; font-size: clamp(30px, 5vw, 42px); letter-spacing: -.015em; margin-bottom: 12px; text-wrap: balance; }
+  .ty-card p { color: var(--muted); font-size: 16px; margin: 0 auto 10px; max-width: 46ch; }
+  .ty-next { list-style: none; margin: 22px 0; padding: 18px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); display: grid; gap: 10px; text-align: left; font-size: 15px; }
+  .ty-next li { display: flex; gap: 10px; align-items: flex-start; }
+  .ty-next svg { flex: 0 0 auto; color: var(--gold-deep); margin-top: 3px; }
+  .ty-call { font-size: 15px; }
+  .ty-call strong { color: var(--ink); font-size: 20px; font-weight: 600; user-select: all; white-space: nowrap; }
+  .ty-btns { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; margin-top: 22px; }
+  .ty-test { margin: 0 0 22px; padding: 10px 14px; border-radius: 4px; background: #fff4d6; color: #6b4a00; font-size: 13.5px; font-weight: 500; text-align: left; }
+  .ty-foot { background: var(--char-2); color: #a9bcd2; font-size: 12.5px; text-align: center; padding: 16px var(--gutter) calc(16px + env(safe-area-inset-bottom, 0px)); border-top: 1px solid var(--line-dark); }
+</style>
+<script src="assets/js/config.js"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  (function (id) {
+    if (!id) return;
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer',id);
+  })(window.AL_CONFIG && window.AL_CONFIG.gtmId);
+</script>
+</head>
+<body>
+<main class="ty">
+  <picture class="ty-media" aria-hidden="true"><img src="assets/img/facade-1600.webp" srcset="assets/img/facade-1000.webp 1000w, assets/img/facade-1600.webp 1600w" sizes="100vw" alt=""></picture>
+  <div class="wrap">
+    <div class="ty-card">
+      <p class="ty-test" id="ty-test" hidden>Test mode: this enquiry was not sent or saved. Connect the lead endpoint and set testMode to false in assets/js/config.js before going live.</p>
+      <img class="logo" src="assets/img/logo-navy.webp" width="640" height="135" alt="Adarsh Group">
+      <p class="pname">Adarsh Lakefront</p>
+      <div class="ty-tick"><svg aria-hidden="true" viewBox="0 0 24 24" width="28" height="28"><path fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" d="M5 12.5l4.5 4.5L19 7.5"/></svg></div>
+      <h1 id="ty-title">Thank you.</h1>
+      <p>We have received your enquiry for a 3 BHK home at Adarsh Lakefront, Bellandur.</p>
+      <ul class="ty-next">
+        <li><svg aria-hidden="true" viewBox="0 0 24 24" width="18" height="18"><circle cx="12" cy="12" r="11" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M7 12.5l3.2 3.2L17 9" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>The sales team will call you shortly with the price sheet.</li>
+        <li><svg aria-hidden="true" viewBox="0 0 24 24" width="18" height="18"><circle cx="12" cy="12" r="11" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M7 12.5l3.2 3.2L17 9" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>You will get the floor plans and available units for your preferred size.</li>
+        <li><svg aria-hidden="true" viewBox="0 0 24 24" width="18" height="18"><circle cx="12" cy="12" r="11" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M7 12.5l3.2 3.2L17 9" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>Pick a site-visit slot on the call. The homes are ready to move in.</li>
+      </ul>
+      <p class="ty-call">Want to talk now? Call <strong class="js-phone-text">99999&nbsp;99999</strong></p>
+      <div class="ty-btns">
+        <a class="btn btn-gold js-phone" href="tel:+919999999999" data-cta="thankyou_call">Call Now</a>
+        <a class="btn btn-dark" href="/">Back to Adarsh Lakefront</a>
+      </div>
+    </div>
+  </div>
+</main>
+<footer class="ty-foot">RERA Phase 1: PRM/KA/RERA/1251/446/PR/170915/000232 · Phase 2: PRM/KA/RERA/1251/446/PR/200323/003382</footer>
+<script>
+(function () {
+  var CFG = window.AL_CONFIG || {};
+  function ss(k) { try { return sessionStorage.getItem(k); } catch (e) { return null; } }
+  var name = ss("al_name");
+  if (name) document.getElementById("ty-title").textContent = "Thank you, " + name + ".";
+  var test = ss("al_test") === "1";
+  if (test) document.getElementById("ty-test").hidden = false;
+  if (CFG.phoneE164) document.querySelectorAll(".js-phone").forEach(function (a) { a.href = "tel:" + CFG.phoneE164; });
+  if (CFG.phoneDisplay) document.querySelectorAll(".js-phone-text").forEach(function (s) { s.textContent = String(CFG.phoneDisplay).replace(/ /g, " "); });
+  // Conversion event for GTM (Google Ads / Meta). Not fired in test mode.
+  if (!test) window.dataLayer.push({ event: "lead_thank_you_view", project: "Adarsh Lakefront" });
+})();
+</script>
+</body>
+</html>
